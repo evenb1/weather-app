@@ -13,5 +13,19 @@ body{
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0 8pc 32px rgba(0, 0, 0, 0.1);
-    
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+}
+h2, label, p{
+    color: white;
+    margin: 8px 0;
+}
+input{
+    width: calc(100% - 16px);
+    padding: 8px;
+    box-sizing:border-box;
+    border-radius: 10px;
+    border: 1px solid white;
+    margin-top: 20px;
 }
