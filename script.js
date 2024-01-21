@@ -29,3 +29,11 @@ function getWeather(){
         alert('Error fetching current weather data. Please try again.');
     });
 }   
+
+function displayWeather(data){
+    const tempDivInfo = document.getElementById('temp-dix');
+    const weatherInfoDiv = document.getElementById('weather-info');
+    const weatherIcon = document.getElementById('weather-icon');
+    const hourlyForecastDiv = document.getElementById('hourly-forecast');
+    
+}

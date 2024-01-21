@@ -1,11 +1,16 @@
+
 body{
-    background: #8c52ff;
     font-family: 'Segoe UI', Courier, monospace;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
     margin:0;
+    background-image: url('cloud.jpg');
+    background-size: cover;
+
+    
+
 }
 #weather-container{
     background: rgba(255, 255, 255, 0.3);
