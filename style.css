@@ -35,7 +35,7 @@ input{
     margin-top: 20px;
 }
 button{
-    background: #debff4;
+    background: #7ebaf6;
     color:white;
     padding: 10px;
     border:none;
@@ -48,7 +48,7 @@ button{
 
 }
 button:hover{
-    background: #8b48b7;
+    background: #01070c;
 }
 #temp-div p{
     font-size: 30px;
